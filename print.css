@@ -1,0 +1,26 @@
+#nav, #footer {
+  display: none;
+}
+
+#page {
+  border: 0px;
+}
+
+#header {
+  height: 60px;
+  color: black;
+  border-bottom: 8px solid black;
+}
+
+#patton_electronics_co {
+  page-break-before: always;
+}
+
+td.first {
+  text-align: right;
+  font-weight: bold;
+  width: 8em;
+}
+td.first:after {
+  content: ": ";
+}
