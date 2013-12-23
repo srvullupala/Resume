@@ -12,15 +12,15 @@
   border-bottom: 8px solid black;
 }
 
-#infoblox_inc {
-  page-break-before: always;
-}
-
 td.first {
   text-align: right;
   font-weight: bold;
   width: 8em;
+  vertical-align: top
 }
 td.first:after {
   content: ": ";
+}
+td {
+  vertical-align: bottom;
 }

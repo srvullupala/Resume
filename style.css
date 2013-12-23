@@ -87,6 +87,15 @@ body {
 
 td.first {
   width: 10em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#skills td {
+  background-color: #EAEAEA;
+}
+#skills table {
+  width: 100%;
 }
 
 .heading {
