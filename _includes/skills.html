@@ -1,0 +1,11 @@
+<h1><a name="skills">Skills</a></h1>
+
+<table>
+    {% for row in site.data.skills %}
+        {% capture class %}{% cycle "odd", "even"%}{% endcapture %}
+    <tr>
+        <td class="first {{class}}">{{ row.name }}</td>
+        <td class="{{class}}">{{ row.items }}</td>
+    </tr>
+    {% endfor %}
+</table>

@@ -1,0 +1,35 @@
+- name: Frameworks
+  items: Ruby on Rails, Sinatra, ExtJS, CORBA, jQuery, Capistrano
+    
+- name: Languages
+  items: Ruby, Javascript, CoffeeScript, C/C++, Python, Perl, Shell Script
+  
+- name: Version Control
+  items: Git, SVN, CVS, VSS, RCS
+  
+- name: Editor
+  items: RubyMine, Text Mate, XCode, vi, Eclipse
+  
+- name: Database
+  items: PostgreSQL, SQLite, MySQL
+  
+- name: OS
+  items: Mac OS X, Linux (CentOS, Ubuntu)
+  
+- name: Services / APIs
+  items: Github, Amazon EC2 and S3, Tddium, Campfire, Facebook, Twitter, IRC
+  
+- name: Authorization Protocol
+  items: SAML (IdP, SP), OAuth, OpenID
+  
+- name: Networking
+  items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
+
+- name: Life Cycle
+  items: Scrum, TDD, Pair Programming
+  
+- name: Virtualization
+  items: QEMU, Xen, VirtualBox, VMware (EAX, Desktop), Amazon (EC2, S3), Parallels
+  
+- name: Testing
+  items: Rspec, Cucumber, Capybara, Jenkins/Hudson CI, CruiseControlRB, CIJoe, Selenium, Jasmine

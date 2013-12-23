@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="{{site.url}}/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="{{site.url}}/css/main.css"> -->
+        <link href="{{site.url}}/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="{{site.url}}/css/print.css" media='print' rel='stylesheet' type='text/css' />
+        
+        {% include analytics.html %}
+    </head>
+
+    <body>
+        
+        <div id="page">
+            <div id="header">
+                {% include header.html %}
+            </div>
+            
+            <div id="content">
+                {{ content }}
+            </div>
+
+            <div id="footer">
+                {% include footer.html %}
+            </div>
+        </div>
+    </body>
+</html>
