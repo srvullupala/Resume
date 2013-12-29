@@ -7,19 +7,19 @@
 - name: Version Control
   items: Git, SVN, CVS, VSS, RCS
   
-- name: Editor
+- name: Editors
   items: RubyMine, Text Mate, XCode, vi, Eclipse
   
 - name: Database
   items: PostgreSQL, SQLite, MySQL
   
-- name: OS
-  items: Mac OS X, Linux (CentOS, Ubuntu)
+- name: OSes
+  items: Mac OS X, Linux (CentOS, Ubuntu), Windows
   
 - name: Services / APIs
   items: Github, Amazon EC2 and S3, Tddium, Campfire, Facebook, Twitter, IRC
   
-- name: Authorization Protocol
+- name: Authorization Protocols
   items: SAML (IdP, SP), OAuth, OpenID
   
 - name: Networking
