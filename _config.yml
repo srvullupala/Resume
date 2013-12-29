@@ -1,4 +1,4 @@
 name: Resume of John T. Kamenik
 markdown: redcarpet
 pygments: true
-url: http://jkamenik.github.io/Resume
+production_url: /Resume
