@@ -1,5 +1,6 @@
+# github runs in safe mode so this code will never be run
 module Jekyll
-  class EnvVariablesGenerator < Generator
+  class DevelopmentGenerator < Generator
     def generate(site)
       site.config['env'] = ENV['JEKYLL_ENV'] || calc_env(site)
       # Add other environment variables to `site.config` here...
