@@ -24,3 +24,5 @@ td.first:after {
 td {
   vertical-align: bottom;
 }
+
+#content a:link:after { content:" (" attr(href) ") "; }
