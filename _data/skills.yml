@@ -22,8 +22,8 @@
 - name: Authorization Protocols
   items: SAML (IdP, SP), OAuth, OpenID
   
-- name: Networking
-  items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
+# - name: Networking
+#   items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
 
 - name: Life Cycle
   items: Scrum, TDD, Pair Programming
