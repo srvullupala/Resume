@@ -1,4 +1,18 @@
 ---
+- name: Simian Army
+  url: https://github.com/jkamenik/simian-army
+  description: A bash based implementation of NetFlix's Simian Army
+
+- name: Crawler
+  url: https://github.com/jkamenik/crawler
+  description: A GoLang webcrawler example
+  subitems:
+    - A clojure version is <a href="https://github.com/jkamenik/crawler-clojure">here</a>.
+
+- name: Dijkstra
+  url: https://github.com/jkamenik/dijkstra
+  Description: A ruby implementation of the Dijkstra Algorithm.
+
 - name: SAML IdP
   url: https://github.com/jkamenik/saml_idp
   description: SAML IdP Gem to convert a Rails app into a SAML IdP.
