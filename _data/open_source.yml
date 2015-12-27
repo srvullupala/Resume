@@ -1,11 +1,11 @@
 ---
 - name: Simian Army
   url: https://github.com/jkamenik/simian-army
-  description: A bash based implementation of NetFlix's Simian Army
+  description: A bash based implementation of Netflix's Simian Army
 
 - name: Crawler
   url: https://github.com/jkamenik/crawler
-  description: A GoLang webcrawler example
+  description: A GoLang web-crawler example
   subitems:
     - A clojure version is <a href="https://github.com/jkamenik/crawler-clojure">here</a>.
 
@@ -30,7 +30,7 @@
 
 - name: statsd
   url: https://github.com/jkamenik/statsd
-  description: Network deamon to aggregate statistics.
+  description: Network daemon to aggregate statistics.
 
 - name: Parallel
   url: https://github.com/jkamenik/parallel

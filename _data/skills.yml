@@ -14,7 +14,7 @@
   items: PostgreSQL, SQLite, MySQL
 
 - name: OSes
-  items: Mac OS X, Linux (CentOS, Ubuntu), Windows
+  items: Mac OS X, Linux (RHEL, CentOS, Ubuntu)
 
 - name: Services / APIs
   items: Github, HipChat, Amazon EC2 and S3, Tddium, Campfire, Facebook, Twitter, IRC
