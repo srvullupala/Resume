@@ -26,3 +26,15 @@ td {
 }
 
 #content a:link:after { content:" (" attr(href) ") "; }
+
+/* Set the order of the elements */
+#content {
+    display:flex;
+    flex-flow: column;
+}
+#summary         {order:1;}
+#skills          {order:2;}
+#work_experience {order:3;}
+#open_source     {order:4;}
+#education       {order:5;}
+q
