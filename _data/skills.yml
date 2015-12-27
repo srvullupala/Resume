@@ -1,35 +1,35 @@
+- name: Languages
+  items: GoLang, Clojure, Python, Ruby, Shell Script, CoffeeScript, Javascript, C/C++, Perl
+
 - name: Frameworks
   items: Ruby on Rails, Sinatra, ExtJS, CORBA, jQuery, Capistrano
-    
-- name: Languages
-  items: Ruby, Javascript, CoffeeScript, C/C++, Python, Perl, Shell Script
-  
+
 - name: Version Control
   items: Git, SVN, CVS, VSS, RCS
-  
+
 - name: Editors
-  items: RubyMine, Text Mate, XCode, vi, Eclipse
-  
+  items: Emacs, RubyMine, Atom, Text Mate, XCode, vi, Eclipse
+
 - name: Database
   items: PostgreSQL, SQLite, MySQL
-  
+
 - name: OSes
-  items: Mac OS X, Linux (CentOS, Ubuntu), Windows
-  
+  items: Mac OS X, Linux (RHEL, CentOS, Ubuntu)
+
 - name: Services / APIs
-  items: Github, Amazon EC2 and S3, Tddium, Campfire, Facebook, Twitter, IRC
-  
+  items: Github, HipChat, Amazon EC2 and S3, Tddium, Campfire, Facebook, Twitter, IRC
+
 - name: Authorization Protocols
   items: SAML (IdP, SP), OAuth, OpenID
-  
-# - name: Networking
-#   items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
+
+- name: Networking
+  items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
 
 - name: Life Cycle
   items: Scrum, TDD, Pair Programming
-  
+
 - name: Virtualization
-  items: QEMU, Xen, VirtualBox, VMware (EAX, Desktop), Amazon (EC2, S3), Parallels
-  
+  items: Linux Containers, Docker, QEMU, Xen, Vagrant, VirtualBox, VMware (EAX, Desktop), Amazon (EC2, S3), Parallels
+
 - name: Testing
-  items: Rspec, Cucumber, Capybara, Jenkins/Hudson CI, CruiseControlRB, CIJoe, Selenium, Jasmine
+  items: Clojure Test, Rspec, Cucumber, Capybara, Jenkins/Hudson CI, CruiseControlRB, CIJoe, Selenium, Jasmine

@@ -1,0 +1,49 @@
+---
+- name: Simian Army
+  url: https://github.com/jkamenik/simian-army
+  description: A bash based implementation of Netflix's Simian Army
+
+- name: Crawler
+  url: https://github.com/jkamenik/crawler
+  description: A GoLang web-crawler example
+  subitems:
+    - A clojure version is <a href="https://github.com/jkamenik/crawler-clojure">here</a>.
+
+- name: Dijkstra
+  url: https://github.com/jkamenik/dijkstra
+  Description: A ruby implementation of the Dijkstra Algorithm.
+
+- name: SAML IdP
+  url: https://github.com/jkamenik/saml_idp
+  description: SAML IdP Gem to convert a Rails app into a SAML IdP.
+  subitems:
+    - An app including the gem is <a href="https://github.com/WaterfallFMS/saml_idp">here</a>.
+    - A SAML client reference app <a href="https://github.com/WaterfallFMS/saml_client">here</a>.
+
+- name: Rubot
+  url: https://github.com/jkamenik/rubot
+  description: A chat bot to do simple things.
+
+- name: Simple AREL
+  url: https://github.com/jkamenik/simple-arel-rails
+  description: Extends Rails / ActiveModel to include "not", "or", and comparisons like "&gt;", "&lt;".
+
+- name: statsd
+  url: https://github.com/jkamenik/statsd
+  description: Network daemon to aggregate statistics.
+
+- name: Parallel
+  url: https://github.com/jkamenik/parallel
+  description: Run things in parallel in ruby.
+
+- name: Carrierwave Direct
+  url: https://github.com/jkamenik/carrierwave_direct
+  description: Allow direct file uploads to Amazon S3.
+
+- name: Bunco
+  url: https://github.com/jkamenik/Bunco
+  description: A simple score card for the Bunco dice game.
+
+- name: Resume
+  url: https://github.com/jkamenik/Resume
+  description: My resume is also open source!
