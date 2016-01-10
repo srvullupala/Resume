@@ -1,4 +1,4 @@
-= Resume
+# Resume
 
 This is the source for my resume.
 
@@ -12,7 +12,7 @@ The `_config-dev.yml` file contains development only overrides that
 are ignored by GitHub.  Mainly this is used to make the pathing work
 locally.
 
-== Layout
+## Layout
 
 As a resume the entire site is meant to compile into a single
 document, but for easy of maintenance it is split into multiple files.
@@ -26,7 +26,7 @@ These files are included in the following order:
 1. Education
 1. Footer - Copyright
 
-== Print Media
+## Print Media
 
 A print media CSS is provided which changes the colors and fonts to
 look better on the printed page.  Also, the header and footer are
