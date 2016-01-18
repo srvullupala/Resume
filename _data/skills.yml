@@ -7,9 +7,6 @@
 - name: Version Control
   items: Git, SVN, CVS, VSS, RCS
 
-- name: Editors
-  items: Emacs, RubyMine, Atom, Text Mate, XCode, vi, Eclipse
-
 - name: Database
   items: PostgreSQL, SQLite, MySQL
 
@@ -26,7 +23,7 @@
   items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
 
 - name: Life Cycle
-  items: Scrum, TDD, Pair Programming
+  items: Scrum, BDD/TDD, Pair Programming
 
 - name: Virtualization
   items: Linux Containers, Docker, QEMU, Xen, Vagrant, VirtualBox, VMware (EAX, Desktop), Amazon (EC2, S3), Parallels
