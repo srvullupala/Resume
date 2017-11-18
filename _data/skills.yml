@@ -1,29 +1,38 @@
 - name: Languages
-  items: GoLang, Clojure, Python, Ruby, Shell Script, CoffeeScript, Javascript, C/C++, Perl
+  items: GoLang, Clojure, Python, Ruby, Bash, CoffeeScript, Javascript, C/C++, Perl
+  
+- name: Orchestration
+  items: Ansible, Kubernetes, Capistrano, Puppet
+  
+- name: Monitoring
+  items: CloudWatch, Senus, Prometheus
+  
+- name: Continuous Integration
+  items: Bitbucket Pipelins, Jenkins
+  
+- name: Authorization Protocols
+  items: OpenID Connect (JWT), SAML (IdP, SP), OAuth, OpenID
 
-- name: Frameworks
-  items: Ruby on Rails, Sinatra, ExtJS, CORBA, jQuery, Capistrano
+- name: Database
+  items: PostgreSQL, SQLite, MySQL, Prometheus
+
+- name: OSes
+  items: Mac OS X, Linux (Alpine, RHEL, CentOS, Ubuntu)
 
 - name: Version Control
   items: Git, SVN, CVS, VSS, RCS
 
-- name: Database
-  items: PostgreSQL, SQLite, MySQL
-
-- name: OSes
-  items: Mac OS X, Linux (RHEL, CentOS, Ubuntu)
-
 - name: Services / APIs
-  items: Github, HipChat, Amazon EC2 and S3, Tddium, Campfire, Facebook, Twitter, IRC
-
-- name: Authorization Protocols
-  items: SAML (IdP, SP), OAuth, OpenID
+  items: Github, HipChat, Amazon EC2 and S3, Campfire, Facebook, Twitter, IRC
 
 - name: Networking
   items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
 
 - name: Life Cycle
   items: Scrum, BDD/TDD, Pair Programming
+
+- name: Web Frameworks
+  items: Jekyll, Hugo, Ruby on Rails, Sinatra, ExtJS, jQuery
 
 - name: Virtualization
   items: Linux Containers, Docker, QEMU, Xen, Vagrant, VirtualBox, VMware (EAX, Desktop), Amazon (EC2, S3), Parallels
