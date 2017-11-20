@@ -35,14 +35,8 @@ a { text-decoration: none; }
   font-style: italic;
 }
 
-/* Set the order of the elements */
-#content {
-    display:flex;
-    flex-flow: column;
-}
-
 /* reshow print only items */
-#work-fourv-repeat {display: inherit;}
+#work-fourv-repeat {display: block;}
 #open_source_print {display: block; page-break-before: always;}
 #open_source {display: none; }
 
