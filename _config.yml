@@ -1,5 +1,5 @@
 name: Resume of John T. Kamenik
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 url: /Resume
 development_url: ""
