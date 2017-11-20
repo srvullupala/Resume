@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-<p>Designed and helped migrate the existing FourV Greyspark product from custom built AMIs to docker containers running on Kubernetes capible of running in AWS, Azure, GCE, or on-prem OpenStack and VMWare vSphere servers.  <a href="https://en.wikipedia.org/wiki/Infrastructure_as_Code">IaC</a> priniples used so both the patform and product deployers are docker images that drive deployment state from YAML configuration files.</p>
+<p>Designed and helped migrate the existing FourV Greyspark product from custom built AMIs to docker containers running on Kubernetes capible of running in AWS, Azure, GCE, or on-prem OpenStack and VMWare vSphere servers.  IaC priniples used so both the patform and product deployers are docker images that drive deployment state from YAML configuration files.</p>
 
 <p>Developed self-monitoring ElasticSearch cluster to support Greypsark's event exploration feature.  Cluster is fully multi-tenant using OpenID Connect JWT tokens to provide data isolation.  Uses best practices to ensure it can dynamically expand to pedibytes of storage.  ES nodes have custom developed watch-dogs which looks for known instabilities and performs the corrective.</p>
 
@@ -25,4 +25,4 @@
   
 <p>Productized log aggrigation solutions based on Syslog-ng capible of handling 50K messages per second ingesting into FourV's Greyspark product.  Designed and implmeneted retry-backoff method which guarantees no messages can be lost in-product.  Designed and built release pipeline that produces AMIs, minified OVAs, and binary upgrade packages.</p>
 
-<p>Designed release versioning and branching solution that works across all 20+ FourV repos.  Version based on symantic versioning with optional hotpatch indicator and release cadidate indicator.  The branching soltuion similar to <a href="http://nvie.com/posts/a-successful-git-branching-model/">GitFlow</a>; takes into account versioning across multiple respitories even when used across multiple products.</p>
+<p>Designed release versioning and branching solution that works across all 20+ FourV repos.  Version based on symantic versioning with optional hotpatch indicator and release cadidate indicator.  The branching soltuion similar to GitFlow; takes into account versioning across multiple respitories even when used across multiple products.</p>
