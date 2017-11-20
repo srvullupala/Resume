@@ -98,3 +98,7 @@ td.first {
 .heading {
   font-weight: bold;
 }
+
+/* Hide print only elements */
+#work-fourv-repeat { display: none }
+#open_source_print { display: none}

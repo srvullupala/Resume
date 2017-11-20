@@ -9,7 +9,11 @@
 #header {
   height: 60px;
   color: black;
+  background: none;
   border-bottom: 8px solid black;
+}
+#header #address a {
+  color: inherit;
 }
 
 td.first {
@@ -25,16 +29,24 @@ td {
   vertical-align: bottom;
 }
 
-#content a:link:after { content:" (" attr(href) ") "; }
+a { text-decoration: none; }
+#content a:link:after { 
+  content:" (" attr(href) ") ";
+  font-style: italic;
+}
 
 /* Set the order of the elements */
 #content {
     display:flex;
     flex-flow: column;
 }
-#summary         {order:1;}
-#skills          {order:2;}
-#work_experience {order:3;}
-#open_source     {order:4;}
-#education       {order:5;}
-q
+
+/* reshow print only items */
+#work-fourv-repeat {display: inherit;}
+#open_source_print {display: block; page-break-before: always;}
+#open_source {display: none; }
+
+/* Print alignment */
+#work-fourv-repeat { display: inherit; page-break-before: always }
+#work-waterfall {page-break-before: always}
+#infoblox_inc {page-break-before: always}
