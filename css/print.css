@@ -25,6 +25,9 @@ body {
   margin-top: 5px;
 }
 
+#skill-table td.first {
+  width: 15em !important;
+}
 td.first {
   text-align: right;
   font-weight: bold;
