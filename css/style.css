@@ -30,7 +30,7 @@ body {
   font-size: 14px;
   background-color: rgb(53,60,62);
   color: white;
-  height: 200px;
+  height: 190px;
   border-bottom: 8px solid rgb(197,206,215);
   padding-left: 5px;
   padding-right: 5px;
@@ -49,6 +49,10 @@ body {
   font-size: 2em;
 }
 
+#header #address-print {
+  display: none;
+}
+
 #header #address {
   margin-top: 5px;
   /* float: right; */
@@ -64,7 +68,7 @@ body {
 #header #nav {
   clear: both;
   text-align: center;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   padding-top: 15px;
 }
 
