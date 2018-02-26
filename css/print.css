@@ -25,6 +25,10 @@ body {
   margin-top: 5px;
 }
 
+h2.on-page-header {
+  margin-top: 50px;
+}
+
 #skill-table td.first {
   width: 15em !important;
 }
