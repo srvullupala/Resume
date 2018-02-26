@@ -1,32 +1,29 @@
 - name: Languages
-  items: GoLang, Clojure, Python, Ruby, Bash, CoffeeScript, Javascript, C/C++, Perl
+  items: GoLang, Python, Ruby, Bash, CoffeeScript, Javascript, C/C++, Perl, Scala
   
 - name: Orchestration
-  items: Ansible, Kubernetes, Capistrano, Puppet
+  items: Kubernetes, Ansible, Capistrano, Puppet, Chef
   
 - name: Monitoring
-  items: CloudWatch, Senus, Prometheus
+  items: Prometheus, CloudWatch, Senus
   
 - name: Continuous Integration
-  items: Bitbucket Pipelins, Jenkins
+  items: Bitbucket Pipelines, Travis CI, Jenkins, Concourse
   
 - name: Authorization Protocols
   items: OpenID Connect (JWT), SAML (IdP, SP), OAuth, OpenID
 
-- name: Database
-  items: PostgreSQL, SQLite, MySQL, Prometheus
+- name: Databases
+  items: PostgreSQL, SQLite, MySQL, ElasticSearch, Redis
 
-- name: OSes
+- name: OS
   items: Mac OS X, Linux (Alpine, RHEL, CentOS, Ubuntu)
 
 - name: Version Control
   items: Git, SVN, CVS, VSS, RCS
 
 - name: Services / APIs
-  items: Github, HipChat, Amazon EC2 and S3, Campfire, Facebook, Twitter, IRC
-
-- name: Networking
-  items: TCP/IP, UDP, DHCP, NTP, HTTP/HTTPS, SSH, SSHFS, NFS, FTP/TFTP, SNMP, SMTP, SMB, Ethernet, T1/E1
+  items: Github, HipChat, AWS, Campfire, Facebook, Twitter, IRC
 
 - name: Life Cycle
   items: Scrum, BDD/TDD, Pair Programming
@@ -35,7 +32,4 @@
   items: Jekyll, Hugo, Ruby on Rails, Sinatra, ExtJS, jQuery
 
 - name: Virtualization
-  items: Linux Containers, Docker, QEMU, Xen, Vagrant, VirtualBox, VMware (EAX, Desktop), Amazon (EC2, S3), Parallels
-
-- name: Testing
-  items: Clojure Test, Rspec, Cucumber, Capybara, Jenkins/Hudson CI, CruiseControlRB, CIJoe, Selenium, Jasmine
+  items: Docker, Linux Containers, Vagrant, VirtualBox, VMware (EAX, Desktop), AWS EC2
