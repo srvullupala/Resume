@@ -111,6 +111,9 @@ body {
   background-color: #EAEAEA;
 }
 
+td {
+  padding: 5px;
+}
 td.first {
   width: 10em;
   font-weight: bold;
