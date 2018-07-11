@@ -1,27 +1,16 @@
-<h2>FourV Systems</h2>
-
-<table class=education>
-  <tr>
-    <td class="first odd">Position</td>
-    <td class=odd>Head of DevOps / Principal Engineer</td>
-  </tr>
-  <tr>
-    <td class="first even">Dates</td>
-    <td class=even> Feburary 2016 - Current </td>
-  </tr>
-  <tr>
-    <td class="first odd">Address</td>
-    <td class=odd> 8 Market Place<br> Suite 400<br> Baltimore, MD 21202 </td>
-  </tr>
-</table>
+<div class="company-header">
+  <span class="company">Opaq</span>
+  <span class="former">(formerly FourV Systems)</span>
+  -
+  <span class="position">Principal DevOps Engineer</span>
+  <span class="date">Feburary 2016 - Present</span>
+</div>
 
 <p>Designed a multi-tenant archetecture for FourV's Greyspark product; saving the company $196K / month over the original single-tenant archetecture.  First layer of tenancy is a share-nothing layer similar to single-tenacy; allowing stricter guarantees at greater cost.  Second layer is a share-resources layer similar to traditional multi-tenancy.  Alowed us to cost target customers based on their expected needs.</p>
 
 <p>Designed and helped migrate the existing FourV Greyspark product from custom built AMIs to docker containers running on Kubernetes.  Designed and implmented Kubernetes deployers for AWS, and VMWware vSphere.  Used IaC priniples so both the patform and product drive deployment state from YAML configuration files checked into Git.</p>
 
 <p>Developed self-monitoring ElasticSearch cluster to support Greypsark's event exploration feature.  ES is fully multi-tenant using OpenID Connect JWT tokens to provide data isolation.  Uses best practices to ensure it can dynamically expand to pedibytes of storage.  ES nodes have custom developed watch-dogs which looks for known instabilities and performs corrective actions automatically.</p>
-
-<h2 id="work-fourv-repeat">FourV Systems, continued</h2>
 
 <p>Designed and built Kubernetes monitoring solution based on Prometheus and Grafana, which monitors all next-gen products and Cloud infrastructure in actionable Dashboards and Alerts.  Implementation based on <a href="https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.fs3knmjt7fjy">Google's SRE monitoring philosophy</a> of customer important actionable alerts.</p>
 

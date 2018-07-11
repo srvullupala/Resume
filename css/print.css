@@ -2,7 +2,7 @@ body {
   margin: 10px;
 }
 
-#nav, #footer {
+#nav, #footer, #skills {
   display: none;
 }
 
@@ -12,12 +12,16 @@ body {
 }
 
 #header {
-  height: 120px;
+  /* height: 120px; */
   color: black;
   background: none;
   border-bottom: 2px solid black;
 }
-#header #address {
+#header #name {
+  font-size: 2em;
+  font-weight: bold;
+}
+#header #address, #header #title {
   display: none;
 }
 #header #address-print {
@@ -25,8 +29,29 @@ body {
   margin-top: 5px;
 }
 
+h1 {
+  font-size: 1.5em;
+}
 h2.on-page-header {
   margin-top: 50px;
+}
+
+.company-header {
+  margin-top: 1.5em;
+}
+.company-header .company {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.company-header .position {
+  font-weight: bold;
+}
+.company-header .date {
+  /* display: block; */
+  /* text-align: right; */
+  float: right;
+  margin-right: 20px;
+  /* margin-left: 20%; */
 }
 
 td {
