@@ -7,7 +7,7 @@
   url: https://github.com/jkamenik/crawler
   description: A GoLang web-crawler example
   subitems:
-    - A clojure version is <a href="https://github.com/jkamenik/crawler-clojure">here</a>.
+    - A Clojure version is <a href="https://github.com/jkamenik/crawler-clojure">here</a>.
 
 - name: Dijkstra
   url: https://github.com/jkamenik/dijkstra
