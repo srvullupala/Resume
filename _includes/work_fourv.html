@@ -6,20 +6,20 @@
   <span class="date">Feburary 2016 - Present</span>
 </div>
 
-<p>Designed a multi-tenant archetecture for FourV's Greyspark product; saving the company $196K / month over the original single-tenant archetecture.  First layer of tenancy is a share-nothing layer similar to single-tenacy; allowing stricter guarantees at greater cost.  Second layer is a share-resources layer similar to traditional multi-tenancy.  Alowed us to cost target customers based on their expected needs.</p>
+<p>Designed a multi-tenant archetecture for FourV's Greyspark product; saving the company $196K / month over the original single-tenant archetecture.  First layer of tenancy is a share-nothing layer similar to single-tenancy; allowing stricter guarantees at greater cost.  Second layer is a share-resources layer similar to traditional multi-tenancy.  Allowed us to cost target customers based on their expected needs.</p>
 
-<p>Designed and helped migrate the existing FourV Greyspark product from custom built AMIs to docker containers running on Kubernetes.  Designed and implmented Kubernetes deployers for AWS, and VMWware vSphere.  Used IaC priniples so both the patform and product drive deployment state from YAML configuration files checked into Git.</p>
+<p>Designed and helped migrate the existing FourV Greyspark product from custom built AMIs to docker containers running on Kubernetes.  Designed and implemented Kubernetes deployers for AWS, and VMware vSphere.  Used IaC principles so both the platform and product drive deployment state from YAML configuration files checked into Git.</p>
 
-<p>Developed self-monitoring ElasticSearch cluster to support Greypsark's event exploration feature.  ES is fully multi-tenant using OpenID Connect JWT tokens to provide data isolation.  Uses best practices to ensure it can dynamically expand to pedibytes of storage.  ES nodes have custom developed watch-dogs which looks for known instabilities and performs corrective actions automatically.</p>
+<p>Developed self-monitoring ElasticSearch cluster to support Greyspark's event exploration feature.  ES is fully multi-tenant using OpenID Connect JWT tokens to provide data isolation.  Uses best practices to ensure it can dynamically expand to petabytes of storage.  ES nodes have custom developed watch-dogs which looks for known instabilities and performs corrective actions automatically.</p>
 
 <p>Designed and built Kubernetes monitoring solution based on Prometheus and Grafana, which monitors all next-gen products and Cloud infrastructure in actionable Dashboards and Alerts.  Implementation based on <a href="https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.fs3knmjt7fjy">Google's SRE monitoring philosophy</a> of customer important actionable alerts.</p>
 
-<p>Designed and implemented SSO solution unifing all product logins using OpenID Connect.  Designed permission model over JWT that supports the multi-deployment multi-tenant requirements of Greyspark while allowing for MFA and AD passthrough for our enterprise customers.</p>
+<p>Designed and implemented SSO solution unifying all product logins using OpenID Connect.  Designed permission model over JWT that supports the multi-deployment multi-tenant requirements of Greyspark while allowing for MFA and AD passthrough for our enterprise customers.</p>
 
-<p>Productized log aggrigation solutions based on Syslog-ng capible of handling 50K messages per second ingesting into FourV's Greyspark product.  Designed and implmeneted retry-backoff method which guarantees no messages can be lost in-product.  Product is released as AMIs, or minified OVAs.  All deployments auto-update each night to lastest stable release.</p>
+<p>Productized log aggregation solutions based on syslog-ng capable of handling 50K messages per second ingesting into FourV's Greyspark product.  Designed and implemented retry-backoff method which guarantees no messages can be lost in-product.  Product is released as AMIs, or minified OVAs.  All deployments auto-update each night to latest stable release.</p>
 
-<p>Designed and implmeneted a company-wide monitoring solution using Sensu.  Montiors all production deployments, as well as critical internal and external infrastructure.</p>
+<p>Designed and implemented a company-wide monitoring solution using Sensu.  Monitors all production deployments, as well as critical internal and external infrastructure.</p>
 
-<p>Designed and implmeneted Continuous Integration pipelines for all repos and products; including dev release to QA and QA's final release to customers.  Integrated code coverage into a Pull Request review process to ensure code quality.</p>
+<p>Designed and implemented Continuous Integration pipelines for all repos and products; including dev release to QA and QA's final release to customers.  Integrated code coverage into a Pull Request review process to ensure code quality.</p>
 
-<p>Designed release versioning and branching solution that works across all 20+ FourV repos.  Version based on symantic versioning with optional hotpatch indicator and release cadidate indicator.  The branching soltuion similar to GitFlow; takes into account versioning across multiple respitories even when used across multiple products.</p>
+<p>Designed release versioning and branching solution that works across all 20+ FourV repos.  Version based on semantic versioning with optional hot-patch indicator and release candidate indicator.  The branching solution similar to GitFlow; takes into account versioning across multiple repositories even when used across multiple products.</p>
