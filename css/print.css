@@ -36,6 +36,10 @@ h2.on-page-header {
   margin-top: 50px;
 }
 
+.break-here {
+  page-break-before: always;
+}
+
 .company-header {
   margin-top: 1.5em;
 }
