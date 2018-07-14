@@ -1,0 +1,21 @@
+body {
+  font-family: 'Lucida Grande', Lucida, Verdana, sans-serif;
+}
+
+.company-header {
+  margin-top: 1.5em;
+}
+.company-header .company {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.company-header .position {
+  font-weight: bold;
+}
+.company-header .date {
+  /* display: block; */
+  /* text-align: right; */
+  float: right;
+  margin-right: 20px;
+  /* margin-left: 20%; */
+}
